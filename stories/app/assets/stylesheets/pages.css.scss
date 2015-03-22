@@ -1,0 +1,110 @@
+// Place all the styles related to the Pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+body{
+
+	color: #FFFFFF;
+	margin: 0;
+	font-family: 'Indie Flower';
+}
+
+h2{
+	margin: 0;
+}
+
+h3{
+	margin: 0;
+}
+
+p{
+	margin: 0;
+}
+
+#main{
+	background-image: url('http://fc07.deviantart.net/fs70/f/2013/174/3/e/recycled_texture_background_by_sandeep_m-d6aeau9.jpg');
+	min-height: 500px;
+	text-align: center;
+	padding: auto auto;
+	margin: 0;
+}
+
+#main h2{
+	color: #ffffff;
+	margin: 0;
+}
+.button{
+	width: auto;
+	padding: 5px;
+	text-align: center;
+	background-color: #ececec;
+	color: #000000;
+}
+
+#supporting{
+	background-color: #336699;
+	height: 200px;
+	margin: 0;
+	text-align: center;
+}
+
+#secondary{
+	background-image: url('1914079.jpg');
+	background-position: 0 200px;
+	min-height: 200px;
+	margin: 0;
+	text-align: center;
+	color: #0000FF;
+}
+
+#discover{
+	background-color: #AAFF33;
+	min-height: 200px;
+	margin: 0;
+	text-align: center;
+}
+
+#footer{
+	background-color: #000000;
+	color: #ffffff;
+	min-height: 50px;
+	text-align: center;
+}
+
+#navigation{
+	width: 200px;
+	min-width: 200px;
+	top: 25px;
+	left: -300px;
+	position: absolute;
+	height: auto;
+	margin: 0;
+}
+
+.navitem{
+	width: 200px;
+	min-width: 200px;
+	height: 30px;
+	background-color: #00FFFF;
+	color: #666666;
+	border: 2px solid #FFFFFF;
+	border-bottom: 0;
+	position: relative;
+	margin: 0 0 10px 0;
+	padding: 3px;
+	-moz-box-shadow:    3px 3px 5px 0 #ccc;
+  	-webkit-box-shadow: 3px 3px 5px 0 #ccc;
+  	box-shadow:         3px 3px 5px 0 #ccc;
+  }
+
+ul li{
+	list-style-type: none;
+}
+
+#menubutton{
+	top: 0;
+	left: 10px;
+	position: absolute;;
+	width: 100px;
+	height: 50px;
+}
